@@ -23,7 +23,7 @@ During the exploratory phase following questions will also be focused on:
 2. What aspects of the property brings value?
 3. Do renovations have effect on property value?
 
-## Approachcs
+## Approach
 1. Check for data completeness and integrity
 2. Perform EDA with statistical analysis to determine statistically significant features
 3. Visualize statistically significant features
