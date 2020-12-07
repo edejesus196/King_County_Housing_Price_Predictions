@@ -6,6 +6,14 @@ This project will utilize multiple regression analysis to predict housing prices
 
 
 ## Repository Structure
+    .
+    ├── data                                # data folder
+    ├── reference                           # project work book and reference files
+    ├── images                              # project image/graph files
+    ├── models                              # final regression models
+    ├── results                             # model predicted file location
+    ├── housing_price_prediction.ipynb      # final project notebook with EDA and model creation
+    └── README.md
 
 ## Business Problem
 A Seattle real estate company seeks to increase porfolio in King County Seattle and wants to accurately predict the sales price of a property. Having an accurate sales prediction will aid in strategizing the investment options to maximize their profit. A multiple linaer regression model will be built base on provided property data for this task. 
@@ -23,7 +31,6 @@ During the exploratory phase following questions will also be focused on:
 5. Model Linear Regression models and evaluate each model for final implementation
 6. Implement feature engineering and final model to the data set. 
 
-## Analysis
 
 ## Modeling
 Using Scikit-learn package 4 linear regression models were crated.
@@ -32,8 +39,7 @@ Using Scikit-learn package 4 linear regression models were crated.
 - Model 3 : Linear Regression with Recursive Feature Elminiation and Cross Valdiation
 - Model 4 : Linear Regression with Kbest feature selection with Ridge regression
 
-It was determined that the Linear Regression with ############ model perfromed the best and was utilized for the final implementation. 
+It was determined that the simple Linear Regression with model perfromed the best and was utilized for the final implementation. 
 
 ## Summary
-
-## Future Work 
+Basic linear Regression with no feature selection had the lowest Root Mean Square Error (RMSE) error value. These means that Model number 1 was better than the other models at prediction home prices on useen data. From the data set analysis and model coefficients, the features the have the highest impact on home prices are square foot living, number of bathrooms, number of bedrooms, grade, and condition.
